@@ -1,0 +1,6 @@
+.weather_container div{
+        display: inline-flex;
+        height: 60px;
+        width: 120px;
+        background: #c3fafa;
+      }
