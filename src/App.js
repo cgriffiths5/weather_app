@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import Language from './language';
 import WeatherDisplay from './weather-display';
 import './App.css';
 import { useEffect } from 'react';
@@ -29,6 +28,7 @@ function ifClicked() {
   fetch(endpoint)
   .then((res) => res.json())
   .then((data) => {
+    console.log(data)
     setWeather({
       name: data.name,
       description: data.weather[0].description,
@@ -51,19 +51,20 @@ function ifClicked() {
 
 
   return (
-    <div className="App">
+    <div class="App">
       <h1 id="title">Weather App</h1>
-      <div className="Search">
+      <div class="Search">
         <input type="text" value={cityname} onChange={(e) => setLocations(e.target.value)} />
-        <button type="submit" className="search_button" onClick={ifClicked}>Search weather</button>
-        <select name="Language" onChange={(e) => setLanguage(e.target.value)}>
-          <option value="en">English</option>
-          <option value="ja">Japanese</option>
-        </select>
+        <button type="submit" class="search_button" onClick={ifClicked}><span class="material-icons">search</span></button>
       </div>
       <br/>
       <WeatherDisplay data={data}/>
-      <Language lang={language}/>
+      <br/>
+      <select name="Language" onChange={(e) => setLanguage(e.target.value)}>
+          <option value="en">English</option>
+          <option value="ja">Japanese</option>
+      </select>
+      <p>Language: {language}</p>
     </div>
   );
 }

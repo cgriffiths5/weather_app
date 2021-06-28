@@ -1,14 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&display=swap');
 
 .App {
   text-align: center;
-  font-family: 'Manrope', sans-serif;
 }
 
 #title {
-  font-family: 'Manrope', 'sans-serif';
+  font-family: 'Montserrat', sans-serif;
 }
 
+input[type=text] {
+  font-size: large;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+button[type=submit] {
+  border:none;
+  background: none;
+}
 
 
 

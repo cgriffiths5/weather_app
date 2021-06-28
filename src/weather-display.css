@@ -1,6 +1,18 @@
+/* Import fonts */
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+.weather_container div{
+  padding: 5px; /* Creates gap */
+}
+
 .weather_container div{
         display: inline-flex;
         height: 60px;
-        width: 120px;
+        width: 140px;
         background: #c3fafa;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+        margin: 5px; /* Creates gap */
       }
