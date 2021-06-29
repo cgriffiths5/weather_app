@@ -52,7 +52,7 @@ function ifClicked() {
 
   return (
     <div class="App">
-      <h1 id="title">Weather App</h1>
+      <h1 class="title">Weather App</h1>
       <div class="Search">
         <input type="text" value={cityname} onChange={(e) => setLocations(e.target.value)} />
         <button type="submit" class="search_button" onClick={ifClicked}><span class="material-icons">search</span></button>
