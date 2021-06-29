@@ -2,6 +2,16 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
 
+#header {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+#header2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
 .weather_container div{
   padding: 5px; /* Creates gap */
 }

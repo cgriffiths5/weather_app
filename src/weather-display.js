@@ -18,8 +18,8 @@ function WeatherDisplay(props) {
     return (
   
       <div class="current_weather">
-      <h1 class="header">{props.data.name}</h1>
-      <h2 class="header">{props.data.description}</h2>
+      <p id="header">{props.data.name}</p>
+      <p id="header2">{props.data.description}</p>
       <img src={iconUrl} alt="Enter a city"></img>
       <section class="weather_container">
         <div>Temp: {props.data.temp}</div>
