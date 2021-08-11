@@ -1,14 +1,29 @@
-#Weather App
+### Title 
 
-This is a basic weather app that displays the current weather. My motivation for this project was to test using react hooks. Currently the app dispalys the current weather when a city name is entered.
+weather-app
 
-#Installation
+### Introduction 
 
-1) $ git clone { the url to Github Rep}
+This was my first attempt at using an API. The basic function of this app is that it dispalys the weather statistics of a chosen city.
 
-2) $ npm install
+### Link to deployed project
 
-3) $ npm start
+### `https://cgriffiths5.github.io/weather_app/`
 
-#Contributing 
-Pull requests are welcome. 
+### Usage 
+
+Clone repo 
+
+### `git clone https://github.com/cgriffiths5/weather_app`
+
+Go to repo 
+
+### `cd weather_app`
+
+To install the app
+
+### `npm install`
+
+To start the app
+
+### `npm start`
