@@ -1,13 +1,14 @@
 /* import fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive&display=swap');
 
 .App {
   text-align: center;
 }
 
-#title {
-  font-size: 40px;
-  font-family: 'Montserrat', sans-serif;
+.title {
+  padding: 20px;
+  font-size: 30px;
+  font-family: 'Cutive', serif;
 }
 
 input[type=text] {

@@ -25,4 +25,5 @@
         align-items: center;
         font-family: 'Montserrat', sans-serif;
         margin: 5px; /* Creates gap */
+        box-shadow: 5px 10px;
       }
